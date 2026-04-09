@@ -36,7 +36,6 @@ YOLOv8 successfully captured the incoming localhost video stream frame-by-frame,
 * **Fix:** Used the local loopback address (`127.0.0.1`) as the target IP. It was also necessary to run the scripts in two entirely separate terminal instances so the Flask server could run continuously in the background while the YOLO script processed the stream.
 
 ## Proof of Execution
-*(Replace the text below with actual image links/files before submitting)*
 
-* **[Screenshot 1]:** Flask terminal running and/or browser showing `http://127.0.0.1:5000/video_feed`.
+(LaptopA/flaskStream.png) Flask terminal running and/or browser showing `http://127.0.0.1:5000/video_feed`.
 * **[Screenshot 2]:** YOLO "Home Monitoring" window actively showing bounding boxes around detected objects.
